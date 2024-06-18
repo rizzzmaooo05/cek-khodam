@@ -275,6 +275,6 @@ function randomPickKhodam() {
 
 function handleClick() {
   nama.textContent = "Nama: " + input.value;
-  khodam.textContent = "Jenis Khodam: " + randomPickKhodam();
+  khodam.textContent = input.value? "Jenis Khodam: " + randomPickKhodam(): "Jenis Khodam: ";
   input.value = "";
 }
