@@ -2,6 +2,7 @@ const input = document.querySelector(".container > input");
 const nama = document.getElementById("nama");
 const khodam = document.getElementById("khodam");
 
+// list khodam di-generate oleh ChatGPT
 const listKhodam = [
   "Kucing Gembul",
   "Kura-Kura Jalan",
